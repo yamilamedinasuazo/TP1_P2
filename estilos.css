@@ -7,7 +7,6 @@
 }
 
 body{
-	<!-- Puse un fondo a partir de una imagen pero no me deja visualizarlo en DW, pero en el navegador si ¿Cómo puedo solucionarlo? -->
 	background-image: url("img/inicio.svg");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -37,4 +36,9 @@ h2{
 
 a{
 	text-decoration: none
+}
+
+/*Index*/
+body{
+	background-image:url("img/index.jpg")
 }
