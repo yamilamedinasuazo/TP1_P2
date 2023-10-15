@@ -8,7 +8,7 @@
 
 <!-- inicio -->
 
-.bienvenida{
+body{
 	background-image: url("img/inicio.svg");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -17,13 +17,13 @@
 h1{
 	font-family:'LT Glockenspiel Black';
 	font-size: 150px;
-	color: #FFFFFF;
+	color:#000000;
 }
 
 h2{
 	font-family:'Cocogoose Pro Thin';
-	font-size:30px;
-	color: #FFFFFF;
+	font-size:45px;
+	color:#020202;
 }
 
 .boton{
@@ -31,7 +31,7 @@ h2{
 	border-radius:50px;
 	width: 100px;
 	padding: 20px 50px 20px 50px;
-	font-size:15px;
+	font-size:30px;
 	font-family:"LT Glockenspiel Black";
 	
 }
