@@ -6,6 +6,8 @@
 	padding: 0px;
 }
 
+<!-- inicio -->
+
 .bienvenida{
 	background-image: url("img/inicio.svg");
 	background-repeat: no-repeat;
@@ -14,19 +16,26 @@
 
 h1{
 	font-family:'LT Glockenspiel Black';
-	font-size: 226px;
+	font-size: 150px;
+	color: #FFFFFF;
 }
 
 h2{
 	font-family:'Cocogoose Pro Thin';
-	font-size:60px;
+	font-size:30px;
+	color: #FFFFFF;
 }
 
 .boton{
 	background-color: antiquewhite;
-	border-radius:20px;
+	border-radius:50px;
+	width: 100px;
 	padding: 20px 50px 20px 50px;
-	font-size:40px;
+	font-size:15px;
 	font-family:"LT Glockenspiel Black";
 	
+}
+
+a{
+	text-decoration: none
 }
