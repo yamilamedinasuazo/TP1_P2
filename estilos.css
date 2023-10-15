@@ -6,8 +6,8 @@
 	padding: 0px;
 }
 
-body{
-	background-image: url("img/inicio.svg");
+.bienvenida{
+	background-image: url("img/inicio.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
@@ -40,5 +40,5 @@ a{
 
 /*Index*/
 body{
-	background-image:url("img/index.jpg")
+	background-image:url("img/jpg")
 }
