@@ -30,7 +30,7 @@ h1{
 
 h2{
 	font-family:'Cocogoose Pro Thin';
-	font-size:45px;
+	font-size:35px;
 	color:#FFFFFF;
 }
 
@@ -56,4 +56,23 @@ a{
 
 .inicio{
 	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.header {
+	background: linear-gradient(to right,#9E3F95, #747DC1);
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	position: absolute;
+	z-index: 8px;
+}
+
+.botonera {
+	display: flex;
+	
 }
