@@ -78,16 +78,20 @@ a{
 	z-index: 8px;
 	width: 1348px;
 	height: 100px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-content: space-around;
-	justify-content: flex-end;
-	align-items: center;
 }
 
-.botonera{
-	list-style: none
+nav{
+	display: flex;
+	text-align:end;
+	flex-direction: row;
+	
+}
+
+nav a {
+	color: white;
+	font-family: Cocogoose, "Cocogoose Pro Thin";
+	padding:14px, 20px;
+	text-decoration: none;
 }
 
 .sobre-mi{
