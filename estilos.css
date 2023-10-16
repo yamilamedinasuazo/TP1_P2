@@ -76,7 +76,7 @@ a{
 	border-bottom-right-radius: 50px;
 	position: absolute;
 	z-index: 8px;
-	width: 1042px;
+	width: 1348px;
 	height: 100px;
 	display: flex;
 	flex-wrap: wrap;
@@ -84,4 +84,30 @@ a{
 	align-content: space-around;
 	justify-content: flex-end;
 	align-items: center;
+}
+
+.botonera{
+	list-style: none
+}
+
+.sobre-mi{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color:#FFFFFF;
+}
+
+.proyectos {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color:#FFFFFF;
 }
