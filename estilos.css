@@ -63,7 +63,7 @@ a{
 .inicio{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
+	align-items: flex-start;
 	padding-top: 200px;
 	padding-bottom: 470px;
 	padding-right: 50px;
@@ -97,13 +97,25 @@ nav a {
 
 .sobre-mi{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: flex-end;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	padding-left: 50px;
 	padding-right: 50px;
 	color:#FFFFFF;
+}
+
+sobre-mi p{
+	padding-top: 100px;
+	padding-left: 200px;
+	padding-right: 100px;
+	width: 700px;
+}
+
+video {
+	height: 550px;
+	 width: 450px;
 }
 
 .proyectos {
