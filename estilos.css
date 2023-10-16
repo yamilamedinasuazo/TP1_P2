@@ -50,6 +50,10 @@ a{
 }
 
 /*Index*/
-body{
-	background-image:url("img/jpg")
+.index{
+	background-image:url("img/index.jpg");
+}
+
+.inicio{
+	display: flex;
 }
