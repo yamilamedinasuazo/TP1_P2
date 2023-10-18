@@ -12,7 +12,7 @@
 		<h2>- Estudiante de Dise&ntilde;o y Comunicaci&oacute;n Visual -</h2>
 	</section>
 	<header class="header">
-		<nav class="botonera">
+		<nav>
 			<a href="#">Inicio</a>
 			<a href="#">Perfil</a>
 			<a href="#">Proyectos</a>
@@ -63,6 +63,19 @@
 				</section>
 					<section class= "formulario">
 						<h3>Contáctame!</h3>
+						<form method="post" action="mailto:yamilamedinasuazo263@gmail.com?subject=Email enviado desde el formulario" target="_blank" enctype="text/plain">
+						<label for="Nombre">Nombre:</label>
+						<input type="text" name="Nombre" id="Nombre">
+						<label>Email</label>
+						<input type="email" name="Email" id="Email">
+						<label>Asunto</label>
+						<input type="text" name="Asunto" id="Asunto">
+						<label for="mensaje">Mensaje</label>
+						<textarea name="Mensaje" id="Mensaje" maxlength="600"></textarea>
+						
+						<input type="submit" value="Enviar">
+						</form>
+							  
 					</section>
 		</main>
 </body>
