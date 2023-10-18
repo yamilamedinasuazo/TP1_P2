@@ -40,14 +40,23 @@ h3{
 	color:#FFFFFF;
 }
 
-.boton{
-	background-color: antiquewhite;
+.boton{;
 	border-radius:50px;
 	width: 100px;
 	padding: 20px 50px 20px 50px;
 	font-size:30px;
 	font-family:"LT Glockenspiel Black";
-	
+}
+
+button{
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan;
+}
+
+button:hover {
+	box-shadow: 0 0 5px cyan,
+	0 0 25px cyan, 0 0 5px cyan,
+	0 0 100px cyan, 0 0 200px cyan;
 }
 
 a{
@@ -106,16 +115,12 @@ nav a {
 	color:#FFFFFF;
 }
 
-p{
+.perfil p{
 	padding-top: 55px;
 	padding-left: 50px;
 	padding-right: 100px;
 	width: 700px;
-}
-
-.proyectos p {
-	padding:100px;
-	width: 700px;
+	text-indent: 30px;
 }
 
 video {
@@ -132,7 +137,13 @@ video {
 	padding-bottom: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
-	color:#FFFFFF;
+	color:#FFFFFF
+}
+
+.proyectos p {
+	padding:20px;
+	width: 500px;
+	text-indent: 30px;
 }
 
 img{
