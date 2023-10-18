@@ -70,6 +70,39 @@ a{
 	padding-left: 50px;
 }
 
+.container{
+	position:relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.burbujas{
+	position: relative;
+	display: flex;
+}
+
+.burbujas span {
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background-color: #B57EDC;
+	margin: 0 4px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px #C8A2C8;
+	animation: 15s linear infinite;
+	animation-duration: calc(125s / var(--i));
+}
+
+@keyframes animate{
+	0%{
+		transform: translateY(100vh) scale(0);
+	}
+	100%{
+		transform: translateY(-10vh) scale(1);
+	}
+}
+
 .header {
 	background: linear-gradient(to right,#9E3F95, #747DC1);
 	border-bottom-left-radius: 50px;
