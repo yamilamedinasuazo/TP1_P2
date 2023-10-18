@@ -80,7 +80,7 @@ a{
 	background: linear-gradient(to right,#9E3F95, #747DC1);
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
-	position: fixed;
+	position:sticky;
 	z-index: 8px;
 	width: 1348px;
 	height: 100px;
