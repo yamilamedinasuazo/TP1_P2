@@ -144,6 +144,8 @@ nav a {
 	text-decoration: none;
 }
 
+/*perfil*/ 
+
 .perfil{
 	display: flex;
 	flex-direction: row;
@@ -169,6 +171,7 @@ video {
 	padding-right: 100px;
 }
 
+/*proyecotos*/
 .proyectos {
 	display: flex;
 	flex-direction: column;
@@ -215,7 +218,8 @@ img{
 		
 	}
 }
-/*font: ormulario*/
+
+/*fcontacto*/
 .formulario{
 	width: 420px;
 	background: transparent;
@@ -229,9 +233,10 @@ img{
 
 label{
 	position: relative;
+	display: block;
 	width: 100%;
 	height: 50px;
-	margin: 30px 0;
+	margin-top: 30px
 }
 
 imput{
@@ -246,7 +251,15 @@ imput{
 	padding: 20px 45px 20px 20px;
 }
 
-.btn{
+imput [type="text"], imput [type="email"], imput [type="asunto"], textarea{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+imput [type="submit"]{
 	width: 100%;
 	height: 45px;
 	background-color: white;
@@ -257,6 +270,9 @@ imput{
 	cursor: pointer;
 	font-size: 16px;
 	color: #333;
-	font-weight: 600;
-	
+	font-weight: 600;	
+}
+
+input[type="submit"]:hover {
+	background-color: blueviolet;
 }
