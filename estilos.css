@@ -158,17 +158,16 @@ nav a {
 }
 
 .perfil p{
-	padding-top: 55px;
 	padding-left: 50px;
-	padding-right: 100px;
+	padding-right: 50px;
 	width: 700px;
-	text-indent: 1.5em;
-	line-height: 1.5;
-	margin: 0;
+	text-indent: 30px;
+	line-height: 30px;
 }
 
 .contenedor{
 	display: flex;
+	flex-direction: column;
 }
 
 video {
@@ -190,11 +189,9 @@ video {
 }
 
 .proyectos p {
-	padding:20px;
 	width: 500px;
-	text-indent: 1.5em;
-	margin: 0;
-	line-height: 1.5;
+	text-indent: 30px;
+	line-height: 30px;
 }
 
 img{
