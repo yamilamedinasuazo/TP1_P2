@@ -113,8 +113,9 @@ footer{
 }
 
 .ig{
-	background-image: url("img/icono_ig.png")
+	background-image: url("img/icono_ig.png");
 }
+
 
 nav{
 	display: flex;
