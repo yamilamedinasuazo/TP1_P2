@@ -191,6 +191,11 @@ video {
 
 img{
 	width: 100%;
+	transition: transform 0.3s;
+}
+
+img:hover {
+	transform: scale(1.2);
 }
 
 .galeria{
