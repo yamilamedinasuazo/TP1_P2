@@ -85,19 +85,16 @@ a{
 	height: 100px;
 }
 
-header h1{
+.inicio h1{
 	font-family:'LT Glockenspiel Black';
 	font-size: 150px;
 	color:#FFFFFF;
 	transition: color 0.3s, font-size 0.3s;
 }
 
-header h1:hover{
+.inicio h1:hover{
 	color:#9E81B9;
 	font-size: 195px;
-	box-shadow: 0 0 5px #9E81B9,
-	0 0 25px #9E81B9, 0 0 5px #9E81B9,
-	0 0 100px #9E81B9, 0 0 200px #9E81B9;
 }
 
 footer{
