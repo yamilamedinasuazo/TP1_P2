@@ -164,7 +164,7 @@ nav a {
 	width: 700px;
 	text-indent: 1.5em;
 	line-height: 1.5;
-	margin: 0 0 1em;
+	margin: 0;
 }
 
 video {
@@ -189,7 +189,7 @@ video {
 	padding:20px;
 	width: 500px;
 	text-indent: 1.5em;
-	margin: 0 0 1em;
+	margin: 0;
 	line-height: 1.5;
 }
 
