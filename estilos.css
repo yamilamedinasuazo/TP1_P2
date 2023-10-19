@@ -85,6 +85,15 @@ a{
 	height: 100px;
 }
 
+header a{
+	transition: background-color 0.3s, color 0.3s;
+}
+
+header a:hover {
+	background-color: #BBB9DE;
+	color: #C7E8D9;
+}
+
 .inicio h1{
 	font-family:'LT Glockenspiel Black';
 	font-size: 150px;
@@ -168,6 +177,7 @@ nav a {
 .contenedor{
 	display: flex;
 	flex-direction: column;
+	padding-top: 50px;
 }
 
 video {
@@ -189,7 +199,7 @@ video {
 }
 
 .proyectos p {
-	width: 500px;
+	width: 950px;
 	text-indent: 30px;
 	line-height: 30px;
 }
