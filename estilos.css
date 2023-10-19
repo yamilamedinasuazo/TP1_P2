@@ -61,6 +61,49 @@ a{
 	color: #010101;
 }
 
+/*animacion inicio*/
+.contenerdor{
+	position:relative;
+	width: 100%;
+	height: 100vh;
+	overflow:hidden;
+}
+
+.burbujas{
+	position: relative;
+	display: flex;
+}
+
+.burbujas span{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	background: #E1CFDE;
+	margin: 0 4px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 10px #C8A2C8,
+	0 0 50px #E1CFDE,
+	0 0 100px #E1CFDE;
+	animation: animate 15s linear infinite;
+	animation-duration: calc(125s / var (--i));
+}
+
+.burbujas span:nth-child(even){
+	background: #B0C1E2;
+	box-shadow: 0 0 0 10px #BBB9DE,
+	0 0 50px #B0C1E2,
+	0 0 100px #B0C1E2;
+}
+
+@keyframes animate {
+	0%{
+		transform: translateY(100vh) scale(0);
+	}
+	100%{
+		transform: translateY(-10vh) scale(1);
+	}
+}
+
 /*Index*/
 .fondo{
 	background-image:url("img/index.jpg");
