@@ -97,25 +97,25 @@ footer{
 	flex-direction: column;
 }
 
-.iconos{
+.redes-sociales{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
 }
 
-.correo{
-	background-image: url("img/icono_correo.png")
+.redes-sociales li {
+	display: inline;
+	margin: 0 10px;
 }
 
-.wpp{
-	background-image: url("img/icono_wpp.png")
+.redes-sociales a {
+	text-decoration: none;
+	 color: #fff;
+	font-size: 24px;
 }
-
-.ig{
-	background-image: url("img/icono_ig.png");
-}
-
 
 nav{
 	display: flex;
