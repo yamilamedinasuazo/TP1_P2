@@ -188,7 +188,7 @@ video {
 	padding-right: 100px;
 }
 
-/*proyecotos*/
+/*proyectos*/
 .proyectos {
 	display: flex;
 	flex-direction: column;
@@ -241,7 +241,7 @@ img:hover {
 	}
 }
 
-/*fcontacto*/
+/*contacto*/
 .formulario{
 	display: flex;
 	width: 420px;
