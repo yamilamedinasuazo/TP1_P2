@@ -92,6 +92,7 @@ header a{
 header a:hover {
 	background-color: #BBB9DE;
 	color: #C7E8D9;
+	border-radius: 20px;
 }
 
 .inicio h1{
