@@ -67,6 +67,7 @@ a{
 }
 
 .home img{
+	padding: 10px;
 	display: flex;
 	align-content: flex-end;
 	box-shadow: 0 0 5px blueviolet,
