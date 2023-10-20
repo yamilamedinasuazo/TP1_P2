@@ -66,14 +66,14 @@ a{
 	background-image:url("img/index.jpg");
 }
 
-.home{
+.home img{
 	display: flex;
 	align-content: flex-end;
 	box-shadow: 0 0 5px blueviolet,
 	0 0 25px blueviolet;
 }
 
-.home:hover {
+.home img:hover {
 	box-shadow: 0 0 5px blueviolet,
 	0 0 25px blueviolet, 0 0 5px blueviolet,
 	0 0 100px blueviolet, 0 0 200px blueviolet;
