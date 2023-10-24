@@ -101,13 +101,10 @@ header a:hover {
 	font-size: 150px;
 	color:#FFFFFF;
 	animation-name: fade-in;
-}
-
-.inicio h1:hover{
 	animation-duration: 1.2s;
-	animation-delay: .3s;
-	animation-timing-function: cubic-bezier(.215,.61,.355,1);
-	animation-fill-mode: backwards;
+    animation-delay: .3s;
+    animation-timing-function: cubic-bezier(.215,.61,.355,1);
+    animation-fill-mode: backwards;
 }
 
 footer{
