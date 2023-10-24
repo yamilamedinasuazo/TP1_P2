@@ -100,11 +100,12 @@ header a:hover {
 	font-family:'LT Glockenspiel Black';
 	font-size: 150px;
 	color:#FFFFFF;
-	animation-name: fade-in;
-	animation-duration: 1.2s;
-    animation-delay: .3s;
-    animation-timing-function: cubic-bezier(.215,.61,.355,1);
-    animation-fill-mode: backwards;
+	transition: color 0.3s, font-size 0.3s;
+}
+
+.inicio h1:hover{
+	color:#9E81B9;
+	font-size: 195px;
 }
 
 footer{
