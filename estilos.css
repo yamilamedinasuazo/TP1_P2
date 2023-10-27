@@ -248,7 +248,7 @@ img:hover {
 
 
 @media screen and (max-width:600px){
-	nav, section, footer{
+	nav, .inicio, footer, .perfil, .proyectos, .contacto{
 		flex-direction: column;
 
 	}
